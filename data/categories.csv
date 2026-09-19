@@ -1,0 +1,25 @@
+﻿Category_ID,Category,Subcategory,Supplier_Group
+CAT-001,IT Equipment,Laptops,Technology
+CAT-002,IT Equipment,Desktop Computers,Technology
+CAT-003,IT Equipment,Monitors,Technology
+CAT-004,IT Equipment,Network Equipment,Technology
+CAT-005,Software & Licenses,Business Software,Technology
+CAT-006,Software & Licenses,Cybersecurity Licenses,Technology
+CAT-007,Office Supplies,Paper & Stationery,Office
+CAT-008,Office Supplies,Printer Consumables,Office
+CAT-009,Furniture,Office Desks,Furniture
+CAT-010,Furniture,Office Chairs,Furniture
+CAT-011,Facilities,Cleaning Services,Facilities
+CAT-012,Facilities,Repair & Maintenance,Facilities
+CAT-013,Utilities,Electricity Services,Utilities
+CAT-014,Utilities,Internet & Telecom,Utilities
+CAT-015,Professional Services,Consulting,Professional Services
+CAT-016,Professional Services,Audit Services,Professional Services
+CAT-017,Training,Professional Training,Training
+CAT-018,Security,Security Services,Security
+CAT-019,Transport,Vehicle Maintenance,Transport
+CAT-020,Transport,Fuel,Transport
+CAT-021,Marketing,Printing & Branding,Marketing
+CAT-022,Marketing,Digital Marketing,Marketing
+CAT-023,Catering,Event Catering,Catering
+CAT-024,Medical & Safety,First Aid & PPE,Medical

@@ -1,0 +1,3 @@
+Repository name: procurement-analytics-portfolio
+Description: Procurement analytics portfolio project using MySQL, Power BI, DAX, Power Query and advanced SQL.
+Topics: power-bi, mysql, sql, data-analysis, business-intelligence, procurement, dashboard, dax, power-query, portfolio-project
