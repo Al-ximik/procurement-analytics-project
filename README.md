@@ -1,10 +1,54 @@
 # Procurement Analytics Portfolio Project
 
-A complete procurement analytics portfolio project built with **MySQL** and **Power BI**. The project covers data profiling, cleaning, dimensional modeling, DAX, SQL analysis, supplier performance, savings analysis, procurement risk, exception monitoring, and advanced SQL window functions.
+End-to-end procurement analytics project built with **MySQL, Power BI, Power Query, and DAX**.
 
-> **Portfolio note:** The dataset is synthetic and was created for learning/demo purposes. It does not contain confidential company data and does not represent a real organization.
+The project analyzes **10,000 procurement transactions** to evaluate spend, savings, supplier performance, delivery reliability, procurement risk, and data-quality exceptions.
 
-## Project objectives
+> **Portfolio note:** The dataset is synthetic and was created for learning and demonstration purposes. It does not contain confidential company data and does not represent a real organization.
+
+## Tech Stack
+
+- **Power BI** — dashboard development and interactive reporting
+- **Power Query** — data cleaning and transformation
+- **DAX** — KPI calculations and analytical measures
+- **MySQL** — data validation, transformation, and business analysis
+- **SQL techniques** — JOINs, CTEs, CASE expressions, RANK(), LAG(), PARTITION BY
+- **Data Modeling** — star-schema design
+
+## Key Results
+
+| KPI | Result |
+|---|---:|
+| Procurement Transactions | 10,000 |
+| Total Spend | 611.09M AZN |
+| Estimated Spend | 643.17M AZN |
+| Total Savings | 34.97M AZN |
+| Savings Rate | 5.44% |
+| Active Suppliers | 120 |
+| Estimate Coverage | 99.32% |
+
+### Key Business Findings
+
+- **Open Tender** generated the highest net savings among procurement methods.
+- **Direct Purchase** produced approximately **-1.03% savings**, indicating net overspend.
+- **Transport** was the largest category by spend and savings.
+- **54.15% of analyzed supplier spend** was associated with suppliers classified as either **Critical Supplier** or **Delivery Risk**.
+- High-risk supplier exposure was heavily concentrated in the **Transport** category.
+- Several significant month-over-month spend movements were identified using SQL `LAG()`.
+- Data-quality checks identified missing supplier, estimate, delivery-date, and quality-score records.
+
+## Dashboard
+
+The Power BI report contains four analytical pages:
+
+1. **Executive Overview**
+2. **Supplier Performance & Risk Analysis**
+3. **Savings & Procurement Efficiency**
+4. **Procurement Risk & Exception Analysis**
+
+![Executive Overview](images/01_executive_overview.png)
+
+## Project Objectives
 
 The project answers practical procurement questions such as:
 
@@ -15,12 +59,6 @@ The project answers practical procurement questions such as:
 - Where is high-risk supplier exposure concentrated?
 - Which months experienced the largest month-over-month spend changes?
 - What data-quality exceptions should management monitor?
-
-## Tech stack
-
-- **MySQL 8.0** — data staging, cleaning view, joins, CTEs, aggregation, CASE expressions, ranking, window functions, risk segmentation
-- **Power BI** — Power Query, star schema, DAX measures, KPI cards, supplier performance matrix, savings and risk dashboards
-- **Excel/CSV** — source data and supporting dimensions
 
 ## Dataset
 
