@@ -228,13 +228,18 @@ procurement-analytics-portfolio/
 
 ## Power BI file
 
-The `.pbix` file is not bundled in this package. Place your final Power BI file in the [`powerbi/`](powerbi/) folder and name it, for example:
+The interactive Power BI report is available in the repository:
 
-```text
-Procurement_Analytics.pbix
-```
+[Download the Power BI file](powerbi/Procurement_Analytics.pbix)
 
-The screenshots in `images/` can remain in the public repository even if you choose not to publish the `.pbix` file.
+The report contains four analytical pages:
+
+- Executive Overview
+- Supplier Performance & Risk Analysis
+- Savings & Procurement Efficiency
+- Procurement Risk & Exception Analysis
+
+Dashboard screenshots are available in the [`images/`](images/) folder.
 
 ## Important analytical limitation
 
