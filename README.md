@@ -244,3 +244,16 @@ Dashboard screenshots are available in the [`images/`](images/) folder.
 ## Important analytical limitation
 
 The `annual_budget_azn` values in the department dimension are not on the same apparent scale as annual procurement spend. For example, the combined department budget is **18.15M AZN**, while annual procurement spend is much larger. Therefore, budget utilization is treated as a **business-definition / scale validation issue**, not as a validated conclusion that departments exceeded budget by several hundred percent.
+
+## Skills Demonstrated
+
+- Data cleaning and transformation with Power Query
+- Star-schema data modeling
+- DAX measures and KPI design
+- SQL joins, CTEs and CASE expressions
+- Window functions: RANK and LAG
+- Month-over-month trend analysis
+- Supplier performance segmentation
+- Procurement savings and risk analysis
+- Data-quality validation
+- Power BI dashboard design
