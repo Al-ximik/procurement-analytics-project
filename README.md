@@ -244,7 +244,3 @@ Dashboard screenshots are available in the [`images/`](images/) folder.
 ## Important analytical limitation
 
 The `annual_budget_azn` values in the department dimension are not on the same apparent scale as annual procurement spend. For example, the combined department budget is **18.15M AZN**, while annual procurement spend is much larger. Therefore, budget utilization is treated as a **business-definition / scale validation issue**, not as a validated conclusion that departments exceeded budget by several hundred percent.
-
-## Suggested GitHub topics
-
-`power-bi` · `mysql` · `sql` · `data-analysis` · `business-intelligence` · `procurement` · `dashboard` · `dax` · `power-query` · `portfolio-project`
